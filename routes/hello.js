@@ -3,6 +3,6 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express 3' });});
+  res.render('hello', { title: 'hello Express' });}); // change
 
 module.exports = router;
